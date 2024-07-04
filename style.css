@@ -1,0 +1,83 @@
+/* Add some basic styling to make the website more user-friendly */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+}
+
+/* Shop list container */
+.shop-list {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #7763574;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+/* Header section */
+.shop-list header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  border-bottom: 1px solid #333;
+}
+
+.shop-list header h1 {
+  margin: 0;
+}
+
+/* Item list section */
+.shop-list .item-list {
+  padding: 20px;
+}
+
+.shop-list .item-list table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.shop-list .item-list th, .shop-list .item-list td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+.shop-list .item-list th {
+  background-color: #f0f0f0;
+}
+
+.shop-list .item-list td input[type="number"] {
+  width: 50px;
+  height: 30px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Calculate button */
+.shop-list .calculate-btn {
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 20px auto;
+  display: block;
+}
+
+/* Total section */
+.shop-list .total {
+  padding: 20px;
+  border-top: 1px solid #ddd;
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}
+
+.shop-list .total span {
+  font-size: 24px;
+  color: #4CAF50;
+}

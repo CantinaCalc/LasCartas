@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KALKULATOR ZAMÓWIEŃ</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="shop-list">
+    <header>
+      <h1>KALKULATOR ZAMÓWIEŃ</h1>
+    </header>
+    <div class="item-list">
+      <table>
+        <tr>
+          <th>Przedmiot</th>
+          <th>Ilosc</th>
+        </tr>
+        <tr>
+          <td>Vintek</td>
+          <td><input type="number" id="item1" value="0"></td>
+        </tr>
+        <tr>
+          <td>Pokawka</td>
+          <td><input type="number" id="item2" value="0"></td>
+        </tr>
+        <tr>
+          <td>Ceram</td>
+          <td><input type="number" id="item3" value="0"></td>
+        </tr>
+        <tr>
+          <td>Pistolmk2</td>
+          <td><input type="number" id="item4" value="0"></td>
+        </tr>
+        <tr>
+          <td>Kajdany</td>
+          <td><input type="number" id="item5" value="0"></td>
+        </tr>
+        <tr>
+          <td>Tlumik</td>
+          <td><input type="number" id="item6" value="0"></td>
+        </tr>
+        <tr>
+          <td>Kamza</td>
+          <td><input type="number" id="item7" value="0"></td>
+        </tr>
+        <tr>
+          <td>Ammo9</td>
+          <td><input type="number" id="item8" value="0"></td>
+        </tr>
+        <tr>
+          <td>Ammo.45</td>
+          <td><input type="number" id="item9" value="0"></td>
+        </tr>
+      </table>
+      <select id="prefixSelect">
+        <option value="H">H</option>
+        <option value="S">S</option>
+      </select>
+    </div>
+    <button class="calculate-btn" onclick="calculateTotal()">Sumuj</button>
+    <div class="total">
+      Total: <span id="total">0$</span>
+    </div>
+
+    <script src="script.js"></script>
+  </div>
+</body>
+</html>
